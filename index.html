@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cyber Security Glossary — 84 Security Terms Explained in Plain Language | Dinal Studios</title>
+<meta name="description" content="Cyber security glossary: 84 terms from 2FA to zero-day explained in plain language. Search and filter by category — free, by Dinal Studios.">
+<meta name="keywords" content="cyber security glossary, cybersecurity terms, infosec glossary, security definitions, what is phishing, zero-day meaning, ransomware definition, cybersecurity vocabulary, security+ glossary">
+<meta name="author" content="Dinal Studios">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://anaskhan0009.github.io/cyber-security-glossary/">
+<meta property="og:title" content="Cyber Security Glossary — 84 Security Terms Explained in Plain Language | Dinal Studios">
+<meta property="og:description" content="Cyber security glossary: 84 terms from 2FA to zero-day explained in plain language. Search and filter by category — free, by Dinal Studios.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://anaskhan0009.github.io/cyber-security-glossary/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Cyber Security Glossary — 84 Security Terms Explained in Plain Language | Dinal Studios">
+<meta name="twitter:description" content="Cyber security glossary: 84 terms from 2FA to zero-day explained in plain language. Search and filter by category — free, by Dinal Studios.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Cyber Security Glossary \u2014 84 Terms Explained",
+  "url": "https://anaskhan0009.github.io/cyber-security-glossary/",
+  "applicationCategory": "EducationalApplication",
+  "operatingSystem": "Any (Web Browser)",
+  "browserRequirements": "Requires JavaScript. Requires HTML5.",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "Dinal Studios",
+    "url": "https://github.com/anaskhan0009"
+  },
+  "description": "Searchable cyber security glossary with 84 terms in plain language across basics, attacks, defense, cryptography, networking and privacy categories."
+}
+</script>
+<style>
+  * { box-sizing: border-box; font-family: 'Segoe UI', Arial, sans-serif; }
+  body { margin: 0; background: #0a0f1a; color: #dbe4f3; }
+  header { background: radial-gradient(1000px 400px at 50% -80px, #14532d 0%, #0a0f1a 60%); padding: 46px 16px 30px; text-align: center; border-bottom: 1px solid #1d2b45; }
+  header h1 { margin: 0 0 8px; font-size: 32px; letter-spacing: .5px; }
+  header h1 span { color: #22c55e; }
+  header p { margin: 0; color: #93a5c4; font-size: 15px; }
+  .mono { font-family: 'Consolas', 'Courier New', monospace; }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 22px 14px 46px; }
+  .card { background: #111a2c; border: 1px solid #1f2c47; border-radius: 14px; padding: 22px; margin-bottom: 20px; }
+  .card h2 { margin: 0 0 6px; font-size: 20px; color: #fff; }
+  .card h2 .tag { color: #22c55e; font-size: 13px; vertical-align: middle; }
+  .card .sub { color: #93a5c4; font-size: 13.5px; margin: 0 0 16px; }
+  textarea, input[type=text], input[type=password], select { width: 100%; padding: 12px; border-radius: 9px; border: 1px solid #2a3a5c; background: #0a0f1a; color: #fff; font-size: 15px; }
+  textarea { min-height: 90px; resize: vertical; }
+  .row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  .btn { background: #22c55e; color: #06280f; border: none; padding: 11px 20px; border-radius: 9px; cursor: pointer; font-weight: 700; font-size: 14px; }
+  .btn:hover { background: #2fe673; }
+  .btn.dark { background: #1f2c47; color: #dbe4f3; }
+  .btn.dark:hover { background: #2a3c61; }
+  .out { background: #0a0f1a; border: 1px dashed #2a3a5c; border-radius: 9px; padding: 13px; font-size: 14px; word-break: break-all; min-height: 24px; }
+  .ok { color: #22c55e; font-weight: 800; }
+  .bad { color: #ef4444; font-weight: 800; }
+  .warn { color: #f59e0b; font-weight: 800; }
+  .terms { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  @media (max-width: 620px){ .terms { grid-template-columns: 1fr; } }
+  .term { background: #0a0f1a; border: 1px solid #1f2c47; border-radius: 10px; padding: 12px 14px; font-size: 13.5px; }
+  .term b { color: #fff; }
+  .term .cat { display: inline-block; font-size: 11px; font-weight: 700; color: #22c55e; border: 1px solid #14532d; border-radius: 12px; padding: 1px 8px; margin-left: 6px; vertical-align: middle; }
+  .rule { background: #2a1215; border: 1px solid #7f1d1d; color: #fecaca; border-radius: 10px; padding: 13px 15px; font-size: 14px; margin-top: 14px; }
+  .flagok { background: #0d2818; border: 1px solid #14532d; color: #bbf7d0; border-radius: 10px; padding: 13px 15px; font-size: 14px; margin-top: 12px; }
+  .flagwarn { background: #2b2108; border: 1px solid #92600a; color: #fde68a; border-radius: 10px; padding: 13px 15px; font-size: 14px; margin-top: 12px; }
+  .privacy { text-align: center; color: #64769a; font-size: 12.5px; margin-top: 4px; }
+  footer { text-align: center; color: #55688c; font-size: 12px; padding: 20px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  td, th { padding: 8px 10px; border-bottom: 1px solid #1f2c47; text-align: left; vertical-align: top; }
+  th { color: #93a5c4; font-weight: 600; }
+  .chip { display: inline-block; padding: 4px 12px; border-radius: 20px; font-size: 12.5px; font-weight: 800; margin: 2px 4px 2px 0; }
+  .chip.pass { background: #14532d; color: #86efac; }
+  .chip.fail { background: #7f1d1d; color: #fecaca; }
+  .chip.none { background: #713f12; color: #fde68a; }
+  .hop { border-left: 3px solid #22c55e; background: #0a0f1a; border-radius: 0 10px 10px 0; padding: 11px 14px; margin-bottom: 10px; font-size: 13.5px; }
+  .hop b { color: #fff; }
+  .hop .when { color: #93a5c4; font-size: 12.5px; }
+  .links a { display: inline-block; margin: 4px 6px 4px 0; padding: 8px 14px; background: #0a0f1a; border: 1px solid #2a3a5c; border-radius: 20px; color: #a9c6f5; text-decoration: none; font-size: 13.5px; }
+  .links a:hover { border-color: #22c55e; color: #fff; }
+  .opt { display: block; width: 100%; text-align: left; background: #0a0f1a; border: 1px solid #2a3a5c; color: #dbe4f3; padding: 12px 14px; border-radius: 9px; cursor: pointer; font-size: 14.5px; margin-bottom: 9px; }
+  .opt:hover { border-color: #22c55e; }
+  .opt.right { border-color: #22c55e; background: #0d2818; }
+  .opt.wrong { border-color: #ef4444; background: #2a1215; }
+  .opt:disabled { cursor: default; opacity: .92; }
+  .bar { height: 10px; background: #0a0f1a; border: 1px solid #2a3a5c; border-radius: 6px; overflow: hidden; }
+  .bar > div { height: 100%; background: #22c55e; width: 0%; transition: width .3s; }
+  .catbtn { background: #1f2c47; color: #dbe4f3; border: 1px solid #2a3a5c; padding: 8px 14px; border-radius: 20px; cursor: pointer; font-size: 13px; font-weight: 600; }
+  .catbtn.on { background: #22c55e; color: #06280f; border-color: #22c55e; }
+
+</style>
+</head>
+
+<body>
+<header>
+  <h1><span>📖</span> Cyber Security Glossary</h1>
+  <p>84 essential security terms in plain language — from 2FA to zero-day — by Dinal Studios</p>
+</header>
+<div class="wrap">
+
+  <div class="card">
+    <h2>🔎 Search the Glossary</h2>
+    <p class="sub">Type to filter instantly, or pick a category. Every term is explained the way you'd explain it to a smart friend — no jargon inside the definitions of jargon.</p>
+    <input type="text" id="q" placeholder="Search terms… e.g. phishing, hash, vpn, zero">
+    <div class="row" id="catRow" style="margin-top:12px"></div>
+    <p style="font-size:13px;color:#93a5c4;margin:12px 0 0"><span id="shownCount"></span></p>
+  </div>
+
+  <div class="terms" id="grid" style="margin-bottom:20px"></div>
+
+  <div class="card">
+    <h2>🎓 How to Use This Glossary</h2>
+    <div class="terms">
+      <div class="term"><b>New to security?</b> Start with the <b>Basics</b> category, then read <b>Attacks</b> to know your enemy, and <b>Defense</b> to know your shield. Ten minutes here will make every security article on the internet easier to read.</div>
+      <div class="term"><b>Studying for a certification?</b> These plain-language definitions map to CompTIA Security+, CEH and CISSP vocabulary. If you can explain a term in your own words — like these cards do — you actually know it.</div>
+    </div>
+    <p class="privacy">🔒 100% private: the whole glossary lives in this page. Searching never sends anything anywhere.</p>
+  </div>
+  <div class="card">
+    <h2>🧰 More Free Tools by Dinal Studios</h2>
+    <p class="sub">Free cyber security tools that run 100% in your browser — no sign-up, no uploads, no tracking.</p>
+    <div class="links"><a href="https://anaskhan0009.github.io/cyber-security-quiz/">Cyber Security Quiz — Test What You Learned</a><a href="https://anaskhan0009.github.io/cyber-security-toolkit/">Complete Cyber Security Toolkit</a><a href="https://anaskhan0009.github.io/phishing-awareness-trainer/">Phishing Awareness Training Game</a><a href="https://anaskhan0009.github.io/linux-security-commands-guide/">Linux Security Commands Guide</a><a href="https://anaskhan0009.github.io/common-ports-reference/">Common Ports Reference — 64 Ports</a><a href="https://anaskhan0009.github.io/personal-security-audit-checklist/">Personal Security Audit Checklist</a></div>
+  </div>
+
+  <footer>Built by Dinal Studios · Cyber security glossary — 84 security terms in plain language · Educational and defensive use only</footer>
+</div>
+<script>
+var TERMS = [{"t": "Cyber Security", "c": "Basics", "d": "The practice of protecting computers, networks and data from attacks, damage and unauthorized access \u2014 the digital version of locks, alarms and guards."}, {"t": "Hacker", "c": "Basics", "d": "Someone who explores computer systems to understand how they work. The word itself is neutral \u2014 what matters is whether they have permission."}, {"t": "Ethical Hacker", "c": "Basics", "d": "A security professional (white hat) hired to break into systems with permission, so weaknesses can be fixed before criminals find them. Also called a penetration tester."}, {"t": "Black Hat Hacker", "c": "Basics", "d": "A criminal hacker who breaks into systems without permission to steal data, money or cause damage."}, {"t": "Malware", "c": "Basics", "d": "Short for malicious software: any program designed to harm, spy on or take control of a device. Viruses, ransomware and spyware are all malware."}, {"t": "Vulnerability", "c": "Basics", "d": "A weakness in software, hardware or habits that an attacker can use to gain access or cause harm. Unpatched software is full of known vulnerabilities."}, {"t": "Exploit", "c": "Basics", "d": "A piece of code or a technique that takes advantage of a vulnerability to break in, escalate privileges or run unauthorized commands."}, {"t": "Zero-Day", "c": "Basics", "d": "A vulnerability the software maker does not know about yet \u2014 or has not patched. Attackers get a head start of 'zero days' for the defense, which makes zero-days especially dangerous."}, {"t": "Patch", "c": "Basics", "d": "A software update that fixes security vulnerabilities or bugs. Installing patches promptly is one of the most effective defenses there is."}, {"t": "Threat", "c": "Basics", "d": "Anything that could harm your systems or data: a criminal group, a malicious program, or even a careless employee clicking the wrong link."}, {"t": "Risk", "c": "Basics", "d": "The combination of how likely a threat is to succeed and how much damage it would do. Security work is largely about reducing risk to an acceptable level."}, {"t": "Attack Surface", "c": "Basics", "d": "Every point where an attacker could try to get in: open ports, user accounts, apps, websites, even employees. A smaller attack surface means fewer ways in."}, {"t": "Data Breach", "c": "Basics", "d": "An incident where private data is accessed, copied or stolen by unauthorized people \u2014 leaked passwords, customer records or company secrets."}, {"t": "Incident Response", "c": "Basics", "d": "The organized process for handling a security incident: detect it, contain the damage, remove the attacker, recover systems, and learn from what happened."}, {"t": "Phishing", "c": "Attacks", "d": "Fake messages (usually email) pretending to be from a trusted sender \u2014 a bank, a delivery company \u2014 designed to trick you into revealing passwords or clicking malicious links."}, {"t": "Spear Phishing", "c": "Attacks", "d": "Phishing aimed at one specific person, using personal details (name, job, recent events) to make the fake message convincing."}, {"t": "Whaling", "c": "Attacks", "d": "Spear phishing aimed at top executives (the 'whales') \u2014 often fake invoices or legal threats designed to trigger large payments."}, {"t": "Smishing", "c": "Attacks", "d": "Phishing by SMS text message: fake delivery notices, bank alerts or prize claims containing a malicious link."}, {"t": "Vishing", "c": "Attacks", "d": "Voice phishing: scam phone calls pretending to be your bank, tech support or a government agency, pressuring you to reveal codes or transfer money."}, {"t": "Social Engineering", "c": "Attacks", "d": "Manipulating people \u2014 rather than computers \u2014 into giving up access or information. Pretexting, impersonation, urgency and fear are the tools."}, {"t": "Ransomware", "c": "Attacks", "d": "Malware that encrypts your files and demands payment (usually cryptocurrency) for the key. Modern gangs also steal the data and threaten to publish it."}, {"t": "Trojan Horse", "c": "Attacks", "d": "Malware disguised as something useful or harmless \u2014 a free game, a cracked app, an invoice attachment \u2014 that installs a hidden backdoor when you run it."}, {"t": "Virus", "c": "Attacks", "d": "Malware that attaches to legitimate files and spreads when those files are opened or shared. It needs a human action to spread."}, {"t": "Worm", "c": "Attacks", "d": "Self-spreading malware that copies itself across networks automatically, without needing anyone to click \u2014 fast and destructive."}, {"t": "Spyware", "c": "Attacks", "d": "Software that secretly monitors you: logging keystrokes, reading messages, tracking location, and sending it all to an attacker."}, {"t": "Keylogger", "c": "Attacks", "d": "A tool (software or hardware) that records every key you type \u2014 capturing passwords, messages and card numbers as you enter them."}, {"t": "Rootkit", "c": "Attacks", "d": "Deeply hidden malware that buries itself in a system to maintain secret, persistent access while hiding from antivirus tools."}, {"t": "Botnet", "c": "Attacks", "d": "A network of hacked devices (PCs, routers, cameras) controlled remotely by an attacker and rented out for spam, DDoS attacks or crypto mining."}, {"t": "DDoS Attack", "c": "Attacks", "d": "Distributed Denial of Service: flooding a website or server with traffic from thousands of devices until it slows to a crawl or crashes."}, {"t": "Man-in-the-Middle Attack", "c": "Attacks", "d": "An attacker secretly sits between you and a service \u2014 classically on public Wi-Fi \u2014 reading or altering the traffic passing between you."}, {"t": "SQL Injection", "c": "Attacks", "d": "Attacking a website through its input fields: typing database commands into a form so the site leaks or deletes its database. A classic, still-common web attack."}, {"t": "Brute Force Attack", "c": "Attacks", "d": "Trying passwords or keys one after another \u2014 billions of combinations \u2014 until the right one is found. Slow salted hashing and rate limits defeat it."}, {"t": "Credential Stuffing", "c": "Attacks", "d": "Using username and password pairs leaked from one breached site to log into others, exploiting people who reuse the same password everywhere."}, {"t": "Firewall", "c": "Defense", "d": "A barrier (hardware or software) that inspects network traffic and blocks connections that do not match the security rules \u2014 a bouncer for your network."}, {"t": "Antivirus", "c": "Defense", "d": "Software that detects, blocks and removes malware using signatures, behavior monitoring and reputation checks. Modern versions are called EDR or XDR."}, {"t": "Two-Factor Authentication (2FA)", "c": "Defense", "d": "Requiring a second proof of identity beyond your password \u2014 usually a code from an app or a security key \u2014 so a stolen password alone is useless."}, {"t": "Multi-Factor Authentication (MFA)", "c": "Defense", "d": "Using two or more different kinds of proof: something you know (password), something you have (phone or key), something you are (fingerprint)."}, {"t": "Password Manager", "c": "Defense", "d": "A secure vault that creates and stores a unique, strong password for every account, so you only memorize one master password."}, {"t": "VPN", "c": "Defense", "d": "Virtual Private Network: an encrypted tunnel for your internet traffic that hides your activity from the local network and changes your apparent location."}, {"t": "Intrusion Detection System (IDS)", "c": "Defense", "d": "A monitoring system that watches network or device activity for signs of attack and raises an alert \u2014 a burglar alarm for networks."}, {"t": "Penetration Testing", "c": "Defense", "d": "An authorized, simulated cyber attack on your own systems to find weaknesses before real attackers do. The report tells you what to fix, and in what order."}, {"t": "Backup", "c": "Defense", "d": "A separate copy of your data that you can restore after loss, corruption or ransomware. The 3-2-1 rule: 3 copies, 2 different media, 1 off-site or offline."}, {"t": "Least Privilege", "c": "Defense", "d": "Giving every user and program only the access they absolutely need \u2014 so if an account is compromised, the damage stays limited."}, {"t": "Zero Trust", "c": "Defense", "d": "A security model that trusts nothing by default: verify every user and device, every time, even inside the network. 'Never trust, always verify.'"}, {"t": "Sandbox", "c": "Defense", "d": "An isolated environment where untrusted files or programs can run safely, so analysts can watch what they do without risking the real system."}, {"t": "Honeypot", "c": "Defense", "d": "A decoy system that looks valuable but is monitored and isolated \u2014 attackers who touch it reveal themselves and their techniques."}, {"t": "Security Awareness Training", "c": "Defense", "d": "Teaching people to recognize phishing, scams and unsafe habits. Technology cannot fix a user who hands over their password \u2014 training reduces that risk."}, {"t": "Endpoint Security", "c": "Defense", "d": "Protecting the end devices \u2014 laptops, phones, servers \u2014 with antivirus, encryption, patching and monitoring, wherever they are used."}, {"t": "Security Audit", "c": "Defense", "d": "A systematic review of an organization's security: policies, configurations, access rights and controls, checked against standards and real-world threats."}, {"t": "Encryption", "c": "Cryptography", "d": "Scrambling data with a key so only someone with the right key can read it. It protects confidentiality \u2014 of messages, files and connections."}, {"t": "Decryption", "c": "Cryptography", "d": "Using the key to turn encrypted data (ciphertext) back into the readable original (plaintext)."}, {"t": "Hashing", "c": "Cryptography", "d": "Turning data into a fixed-size, one-way fingerprint. You cannot reverse a hash \u2014 it is used to verify integrity and store passwords safely, not to hide data."}, {"t": "SHA-256", "c": "Cryptography", "d": "A widely trusted hash function producing a 256-bit fingerprint. It secures Bitcoin, download checksums and digital signatures. No collisions have ever been found."}, {"t": "MD5", "c": "Cryptography", "d": "An old, fast hash function that is now broken: collisions can be manufactured on purpose. Fine only for non-security checksums \u2014 never for passwords or signatures."}, {"t": "Salt", "c": "Cryptography", "d": "Random data added to a password before hashing, unique per user, so identical passwords produce different hashes and precomputed 'rainbow tables' fail."}, {"t": "AES", "c": "Cryptography", "d": "Advanced Encryption Standard: the symmetric encryption algorithm trusted worldwide \u2014 used by VPNs, disk encryption, Wi-Fi and governments. AES-256 is the strongest common variant."}, {"t": "Public Key", "c": "Cryptography", "d": "In asymmetric cryptography, the key you share with everyone. Data encrypted with it can only be decrypted by the matching private key."}, {"t": "Private Key", "c": "Cryptography", "d": "The secret half of a key pair \u2014 never shared. It decrypts what the public key encrypted and creates digital signatures. Leak it, and your identity is compromised."}, {"t": "Digital Signature", "c": "Cryptography", "d": "A cryptographic stamp proving a message or file came from the key holder and was not altered. Used for software updates, documents and certificates."}, {"t": "SSL/TLS Certificate", "c": "Cryptography", "d": "A digital ID card for a website, issued by a trusted authority, enabling HTTPS: it proves the site's identity and encrypts the connection."}, {"t": "End-to-End Encryption", "c": "Cryptography", "d": "Encryption where only the sender and receiver can read the messages \u2014 not even the service provider in the middle. Used by Signal and WhatsApp."}, {"t": "IP Address", "c": "Networking", "d": "The numeric label identifying a device on a network \u2014 like a postal address for data. IPv4 looks like 192.168.1.10; IPv6 is the much longer successor."}, {"t": "DNS", "c": "Networking", "d": "Domain Name System: the internet's phone book, translating names like example.com into IP addresses. Attackers target it; defenders encrypt and monitor it."}, {"t": "DNS Spoofing", "c": "Networking", "d": "Poisoning DNS answers so a real domain name points to a fake server \u2014 sending users to a lookalike site that steals logins."}, {"t": "Port", "c": "Networking", "d": "A numbered doorway on a device for specific services: 443 for HTTPS, 22 for SSH, 25 for email. Open ports are potential entry points \u2014 close what you do not use."}, {"t": "Protocol", "c": "Networking", "d": "The agreed rules for how devices communicate: HTTP, HTTPS, TCP, IP, SMTP and DNS are all protocols."}, {"t": "Packet", "c": "Networking", "d": "A small chunk of data travelling across a network. Everything you send \u2014 messages, videos, files \u2014 is split into packets and reassembled at the destination."}, {"t": "Router", "c": "Networking", "d": "The device directing traffic between your local network and the internet. A misconfigured or unpatched router is a favorite attacker target."}, {"t": "Proxy Server", "c": "Networking", "d": "A middleman that forwards your requests to websites: used for filtering, caching, anonymity and monitoring \u2014 by companies and by attackers alike."}, {"t": "MAC Address", "c": "Networking", "d": "A hardware ID burned into a network card, unique per device. Used inside local networks; it can be spoofed, so it is an identifier, not a security control."}, {"t": "Subnet", "c": "Networking", "d": "A logical subdivision of a network. Segmenting networks into subnets limits how far an attacker (or a failure) can spread."}, {"t": "WPA3", "c": "Networking", "d": "The current Wi-Fi security standard, replacing WPA2: stronger encryption and much better protection against password-guessing attacks on wireless networks."}, {"t": "LAN", "c": "Networking", "d": "Local Area Network: the devices connected within a home, office or building \u2014 as opposed to the WAN, the wider internet beyond."}, {"t": "Cookie", "c": "Privacy", "d": "A small file a website stores in your browser to remember you \u2014 logins, preferences, carts. Third-party cookies are also used to track you across sites for advertising."}, {"t": "Third-Party Tracking", "c": "Privacy", "d": "Companies you have never heard of following your activity across many websites to build an advertising profile of you."}, {"t": "Digital Footprint", "c": "Privacy", "d": "The trail of data you leave online: posts, searches, purchases, location history. Much of it is permanent and searchable by employers, strangers \u2014 and attackers."}, {"t": "Metadata", "c": "Privacy", "d": "'Data about data': a photo's metadata can include when and where it was taken and with what device \u2014 even when the photo itself shows nothing sensitive."}, {"t": "Doxxing", "c": "Privacy", "d": "Publishing someone's private personal information \u2014 home address, phone number, family details \u2014 online to harass or endanger them."}, {"t": "Incognito Mode", "c": "Privacy", "d": "A browser mode that does not save history or cookies after you close it. It does NOT make you anonymous: your ISP, employer and the websites still see you."}, {"t": "App Permissions", "c": "Privacy", "d": "What you allow an app to access: camera, microphone, contacts, location. Over-generous permissions are a quiet privacy leak \u2014 review them regularly."}, {"t": "Data Broker", "c": "Privacy", "d": "A company that collects, buys and sells personal data \u2014 often without you ever interacting with it \u2014 to advertisers, insurers and anyone paying."}, {"t": "Location Tracking", "c": "Privacy", "d": "Recording where your device goes, via GPS, Wi-Fi and cell towers. Apps and data brokers can build detailed maps of your home, work and habits."}, {"t": "Biometrics", "c": "Privacy", "d": "Using your body as a credential: fingerprints, face or voice. Convenient and hard to fake \u2014 but unlike a password, you cannot change your face if a copy leaks."}, {"t": "Data Minimization", "c": "Privacy", "d": "The privacy principle of collecting and keeping only the data you truly need: the safest data is the data that was never stored."}];
+var CATS = ["All", "Basics", "Attacks", "Defense", "Cryptography", "Networking", "Privacy"];
+var activeCat = "All";
+
+function esc5(s){ return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+
+function renderCats(){
+  var row = document.getElementById("catRow"), html = "";
+  CATS.forEach(function(c){
+    html += '<button class="catbtn' + (c === activeCat ? " on" : "") + '" onclick="setCat(\'' + c + '\')">' + c + "</button>";
+  });
+  row.innerHTML = html;
+}
+function setCat(c){ activeCat = c; renderCats(); renderGrid(); }
+
+function renderGrid(){
+  var q = document.getElementById("q").value.trim().toLowerCase();
+  var grid = document.getElementById("grid"), html = "", shown = 0;
+  TERMS.forEach(function(item){
+    if (activeCat !== "All" && item.c !== activeCat) return;
+    if (q && (item.t + " " + item.d).toLowerCase().indexOf(q) === -1) return;
+    shown++;
+    html += '<div class="term"><b>' + esc5(item.t) + '</b><span class="cat">' + esc5(item.c) + "</span><br>" + esc5(item.d) + "</div>";
+  });
+  if (!shown) html = '<div class="term">No term matches — try a shorter search, or pick another category.</div>';
+  grid.innerHTML = html;
+  document.getElementById("shownCount").textContent = "Showing " + shown + " of " + TERMS.length + " terms";
+}
+document.getElementById("q").addEventListener("input", renderGrid);
+renderCats();
+renderGrid();
+</script>
+</body>
+</html>
